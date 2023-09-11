@@ -55,7 +55,7 @@ data_training_array = scaler.fit_transform(data_training)
 
 
 #Load the model
-model = tensorflow.keras.models.load_model('D:/keras_model.h5', compile=False)
+model = tensorflow.keras.models.load_model('keras_model.h5', compile=False)
 
 #Testing Part
 past_100_days = data_training.tail(100)
