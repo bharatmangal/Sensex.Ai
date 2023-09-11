@@ -11,7 +11,8 @@ import tensorflow
 start = '2010-01-01'
 end = '2022-12-31'
 
-st.title('Sensex.Ai - © Bharat Mangal')
+st.title('Sensex.Ai')
+st.subtitle('- © Bharat Mangal'')
 
 
 user_input = st.text_input('Enter Stock Ticker', placeholder='AAPL')
