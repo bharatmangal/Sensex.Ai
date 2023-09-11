@@ -10,6 +10,7 @@ import tensorflow
 st.set_page_config(
     page_title="Sensex.Ai",
     page_icon=":chart_with_upwards_trend:"
+)
     
 start = '2010-01-01'
 end = '2022-12-31'
