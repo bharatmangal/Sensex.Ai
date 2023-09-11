@@ -11,7 +11,8 @@ import tensorflow
 start = '2010-01-01'
 end = '2022-12-31'
 
-st.title('Stock Trend Prediction')
+st.title('Sensex.Ai - © Bharat Mangal')
+
 
 user_input = st.text_input('Enter Stock Ticker', placeholder='AAPL')
 if user_input:
