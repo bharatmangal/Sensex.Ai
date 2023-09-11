@@ -12,7 +12,7 @@ start = '2010-01-01'
 end = '2022-12-31'
 
 st.title('Sensex.Ai')
-st.subheader('- © Bharat Mangal')
+st.subheader('© Bharat Mangal')
 
 
 user_input = st.text_input('Enter Stock Ticker', placeholder='AAPL')
