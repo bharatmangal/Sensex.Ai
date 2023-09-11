@@ -11,10 +11,28 @@ st.set_page_config(
     page_title="Sensex.Ai",
     page_icon=":chart_with_upwards_trend:"
 )
-    
+
+logo_style = """
+    <style>
+        .logo {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 50px;  # Adjust the width as needed
+            height: 50px;  # Adjust the height as needed
+            margin-right: 10px;
+        }
+    </style>
+"""
+
 start = '2010-01-01'
 end = '2022-12-31'
 
+# Display the logo and title
+st.markdown(logo_style, unsafe_allow_html=True)  # Inject the CSS styles
+st.markdown("<div class='logo'><img src=':chart_with_upwards_trend:'><h1>My Streamlit App</h1></div>", unsafe_allow_html=True)
 st.title('Sensex.Ai')
 st.subheader('© Bharat Mangal')
 
