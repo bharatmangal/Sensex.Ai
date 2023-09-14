@@ -74,7 +74,7 @@ if len(df) > 0:
 
     # Testing Part
     past_100_days = data_training.tail(100)
-    final_df = past_100_days.append(data_testing, ignore_index=True)
+    final_df = pd.concat([past_100_days, data_testing], ignore_index=True)
     input_data = scaler.fit_transform(final_df)
 
     x_test = []
